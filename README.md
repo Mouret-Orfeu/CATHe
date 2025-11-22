@@ -30,7 +30,7 @@ CATHe (short for CATH embeddings) is a deep learning tool designed to detect rem
 
 CATHe2 is an improved version of CATHe with a different architecture, using embeddings from the ProstT5 pLM. CATHe2 is also able to take 3D structure information as input as well as protein primary sequences, via 3Di sequences derived from PDB files. This allows CATHe2 to reach an accuracy of 92.2% (F1 score of 82.3%).
 
-To know more about CATHe2 and how it was built, see (put CATHe2 link when published) [CATHe2 paper](https://...)
+To know more about CATHe2 and how it was built, see [CATHe2 paper](https://academic.oup.com/biomethods/article/10/1/bpaf080/8314205)
 
 # Project information
 This project was tested on Ubuntu 22.04
@@ -205,15 +205,15 @@ The main components extending the original CATHe project are located in the foll
 If you found this work useful, please consider citing the following article:
 
 ```
-@article {Mouret2025.06.22.660903,
-	author = {Mouret, Orfe{\'u} and Abbass, Jad},
-	title = {CATHe2: Enhanced CATH Superfamily Detection Using ProstT5 and Structural Alphabets},
-	elocation-id = {2025.06.22.660903},
-	year = {2025},
-	doi = {10.1101/2025.06.22.660903},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2025/06/26/2025.06.22.660903},
-	eprint = {https://www.biorxiv.org/content/early/2025/06/26/2025.06.22.660903.full.pdf},
-	journal = {bioRxiv}
-}
+@article{10.1093/biomethods/bpaf080,
+    author = {Mouret, Orfeú and Abbass, Jad},
+    title = {CATHe2: Enhanced CATH superfamily detection using ProstT5 and structural alphabets},
+    journal = {Biology Methods and Protocols},
+    volume = {10},
+    number = {1},
+    pages = {bpaf080},
+    year = {2025},
+    month = {11},
+    doi = {10.1093/biomethods/bpaf080},
+    url = {https://doi.org/10.1093/biomethods/bpaf080},
 ```
